@@ -150,13 +150,14 @@ public class Picture
     public void setBlackAndWhite()
     {
         ocean1.changeColor("white");
+        sailPole.changeColor("black");
         ocean2.changeColor("white");
+        person.changeColor("black");
         boat1.changeColor("black");
         boat2.changeColor("black");
         boat3.changeColor("black");
         boat4.changeColor("black");
         boat5.changeColor("black");
-        sailPole.changeColor("black");
         sail1.changeColor("white");
         sail2.changeColor("white");
     }
@@ -167,13 +168,14 @@ public class Picture
     public void setColor()
     {
         ocean1.changeColor("blue");
+        sailPole.changeColor("white");
         ocean2.changeColor("blue");
+        person.changeColor("black");
         boat1.changeColor("white");
         boat2.changeColor("white");
         boat3.changeColor("white");
         boat4.changeColor("white");
         boat5.changeColor("white");
-        sailPole.changeColor("white");
         sail1.changeColor("red");
         sail2.changeColor("red");
     }
